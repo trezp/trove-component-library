@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 import colorSchemes from "./colorSchemes";
 import "./Badge.css";
 
@@ -13,7 +13,7 @@ export default function Badge({children, color = "gray", type = "square"}){
 }
 
 Badge.propTypes = {
-  children: PropTypes.any, 
-  color: PropTypes.string,
-  type: PropTypes.string
+  children: propTypes.any, 
+  color: propTypes.string,
+  type: propTypes.string
 };
