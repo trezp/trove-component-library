@@ -1,0 +1,22 @@
+.badge {
+  padding: 2px 12px;
+  text-align: center;
+}
+
+.square {
+  border-radius: 4px;
+}
+
+.pill {
+  border-radius: 12px
+}
+
+.circle {
+  padding: 0;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
