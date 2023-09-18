@@ -7,8 +7,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <Badge color="purple">This is a badge</Badge>
-      <Banner>This is a banner!</Banner>
+      <Banner status="warning">This is a banner!</Banner>
     </>
   )
 }

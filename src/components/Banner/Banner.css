@@ -1,0 +1,29 @@
+:root {
+  --spacing-unit: 4px;
+}
+
+.banner-container {
+  display: flex;
+  border-radius: 6px;
+}
+
+.banner-container p {
+  margin: 0;
+}
+
+.status {
+  margin-right: calc(var(--spacing-unit) * 3);
+}
+
+.neutral {
+  color: #60A5FA;
+}
+.warning {
+  color: #FBBF24;
+}
+.success {
+  color: #34D399;
+}
+.error {
+  color: #F87171;
+}
