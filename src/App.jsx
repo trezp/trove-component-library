@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <div className="badge-container">
         <Badge color="blue" type="pill">Badge</Badge>
         <Badge color="red" type="pill">Badge</Badge>
@@ -25,10 +25,8 @@ function App() {
       <Banner status="neutral">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mauris non odio condimentum lacinia
       </Banner>
-      <Banner status="error">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mauris non odio condimentum lacinia
-      </Banner>
-    </>
+      <Banner status="error"></Banner>
+    </div>
   )
 }
 

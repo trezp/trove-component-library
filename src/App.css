@@ -4,6 +4,11 @@
   padding: 2rem;
 }
 
+.app-container {
+  max-width: 80%;
+  margin: auto;
+}
+
 .badge-container {
   display: flex;
   justify-content: space-between;

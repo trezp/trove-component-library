@@ -6,7 +6,8 @@
   display: flex;
   border-radius: 6px;
   padding: calc(var(--spacing-unit) * 4);
-  margin: 5px;
+  margin: 10px;
+  max-width: 100%;
 }
 
 .banner-container p {
