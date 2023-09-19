@@ -9,8 +9,8 @@ export default function Banner({ children, status = "neutral", title = "Attentio
     <div className="banner-container" style={getBannerColors(status)}>
       <BannerIcon bannerStatus={status}/>
       <div className="banner-content">
-        <p>{title}</p>
-        <p>{children}</p>
+        <p style={{marginBottom: children ? "8px" : null}}>{title}</p>
+        {children}
       </div>
     </div>
   )

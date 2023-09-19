@@ -16,13 +16,13 @@ function App() {
         <Badge color="indigo">Badge</Badge>
         <Badge color="purple" >Badge</Badge>
       </div>
-      <Banner status="warning">
+      <Banner status="warning" title="You aren't suppose to do that.">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mauris non odio condimentum lacinia
       </Banner>
-      <Banner status="success">
+      <Banner status="success" title="Success!">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mauris non odio condimentum lacinia
       </Banner>
-      <Banner status="neutral">
+      <Banner status="neutral" title="An update is available">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mauris non odio condimentum lacinia
       </Banner>
       <Banner status="error"></Banner>
