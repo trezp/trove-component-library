@@ -45,7 +45,7 @@ export default function Banner({ children, status = "neutral", title = "Attentio
   return (
     <div className="banner-container" style={getBannerColors(bannerColors, status)}>
       {statusIcon()}
-      <div>
+      <div className="banner-content">
         <p>{title}</p>
         <p>{children}</p>
       </div>

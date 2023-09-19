@@ -5,14 +5,21 @@
 .banner-container {
   display: flex;
   border-radius: 6px;
+  padding: calc(var(--spacing-unit) * 4);
+  margin: 5px;
 }
 
 .banner-container p {
   margin: 0;
 }
 
+.banner-content :first-child {
+  font-weight: bold;
+}
+
 .status {
   margin-right: calc(var(--spacing-unit) * 3);
+  font-size: 1.5em;
 }
 
 .neutral {
